@@ -13,15 +13,6 @@ function alterarStatusBotaoReiniciar(){
         botao.classList.add('container__botao-desabilitado');
     }
 }
-
-// function libearBotaoSortear(){
-//     if (!quantidade || !de || !ate){
-//         document.getElementById('btn-sortear').disabled = true;
-//     } else {
-//         document.getElementById('btn-sortear').disabled = false;
-//     }
-// }
-
     function sortear(){
     let quantidade = parseInt(document.getElementById('quantidade').value);
     let de = parseInt(document.getElementById('de').value);
@@ -77,10 +68,3 @@ function reiniciar(){
     alterarStatusBotaoReiniciar()
     }
 }
-
-// if (quantidade.toString == '' || de.toString == '' || ate.toString == ''){
-//     botaoSortear.disabled = true;
-// //        botaoSortear.classList.add('container__botao-desabilitado');
-//    } else {
-//     botaoSortear.disabled = false;
-//    }
